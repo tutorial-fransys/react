@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: fransys/buildpack:fa26bad7fecf046edc1300891f814d20efca0ae0
+      image: fransys/buildpack:11f5bbcf94576111866add2329bc229f34a206c4
     steps:
       - uses: actions/checkout@v3
       - name: Login to Fransys registry
